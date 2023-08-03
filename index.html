@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Tic Tac Toe Game</h1>
+    </div>
+    <div class="main-content">
+        <div class="board">
+            
+        </div>
+        <div class="buttons">
+            <button id="restart">Restart</button>
+            <button id="start">Start</button>
+        </div>
+
+        <div class="display-text">
+
+            Get started by first clicking the start button!
+        </div>
+    </div>
+
+    <div class="popup">
+        <form class="form" action="">
+            <div>
+                <label for="firstPlayer">First player's name</label>
+                <input type="text" id="firstPlayer" required>
+            </div>
+            <div>
+                <label for="firstPlayerMarker">First player's mark</label>
+
+                <input type="radio" id="X" checked name="firstMark">
+                <label for="X">X</label>
+        
+                <input type="radio" id="O" name="firstMark">
+                <label for="O">O</label>
+
+            </div>
+            
+            
+                <div>   
+                    <label for="secondPlayer">Second player's name</label>
+                    <input type="text" id="secondPlayer" required>
+                </div>
+
+                <div>
+                    <label for="secondPlayerMarker">Second player's mark</label>
+                    
+                    <input type="radio" id="X2" name="secondMark">
+                    <label for="X">X</label>
+            
+                    <input type="radio" id="O2" checked name="secondMark">
+                    <label for="O">O</label>
+                    
+
+                
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+            <button id="exit"> Exit </button>
+        </form>
+
+    </div>
+</body>
+</html>
